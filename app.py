@@ -96,7 +96,7 @@ def scorefun(chat_id, win, update, context):
 
 def main():
     """Start the bot."""
-    updater = Updater("1925390535:AAE22472__rqBTMs0rMqkb9RkALO1P0oiWY", use_context=True)
+    updater = Updater("", use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
